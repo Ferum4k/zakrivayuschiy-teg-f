@@ -14,6 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font);
+  font-variation-settings: 'wght' var(--main-font-weight);
   background-image: repeating-linear-gradient(90deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
                     repeating-linear-gradient(180deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
                     linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
@@ -86,7 +87,6 @@
   padding: 0;
   background-color: #ffffff;
   border: none;
-  cursor: pointer;
 }
 
 .card_image {
@@ -205,10 +205,6 @@
   font-size: 14px;
 }
 
-@media (width <= 375px) {
-  
-}
-
 .image--grayscale {
   filter: grayscale(0.9);
 }
@@ -234,7 +230,7 @@
 }
 
 .image--doom {
-  filter: saturate(5) hue-rotate(316deg) brightness(5); 
+  filter: saturate(5) hue-rotate(316deg) brightness(5);
 }
 
 .card__like-button,

@@ -58,11 +58,11 @@
 
 .like-icon.is-liked .heart {
   transform-origin: center;
-  animation: heart-scale 0.3s ease-in 0.1s forwards;
+  animation: heart-scale 0.3s ease-in 0.1s;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks-explosion 0.3s ease-in 0.3s forwards;
+  animation: sparks-explosion 0.3s ease-in 0.3s;
 }
 
 @keyframes heart-scale {
